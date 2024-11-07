@@ -1,11 +1,11 @@
 import "./index.module.css"
 import Navbar from "./components/navigation/Navbar"
-import AboutMe from "./components/aboutMyself/aboutMe"
+import Intro from "./components/introduction/Intro"
 function App() {
   return (
     <>
     <Navbar/>
-    <AboutMe />
+    <Intro />
     </>
   )
 };

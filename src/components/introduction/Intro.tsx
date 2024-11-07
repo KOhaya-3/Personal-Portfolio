@@ -1,7 +1,7 @@
-import styles from "./aboutMeStyle.module.css"
+import styles from "./introStyle.module.css"
 import profilePic from "./profilePic.jpg"
 
-function aboutMe() {
+function Intro() {
   return (
     <div className={styles.container}>
       <div className={styles.introText}>
@@ -13,4 +13,4 @@ function aboutMe() {
   )
 }
 
-export default aboutMe
+export default Intro
